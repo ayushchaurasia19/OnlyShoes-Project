@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <title>OnlyShoes Front page</title>
+    <link rel="stylesheet" href="front-page.css">
+</head>
+<body>
+    <div class="top-bar">
+        <img src="Images/OnlyShoes logo.jpeg" alt="OnlyShoes logo" width="150px" height="70px" style="border-radius: 20px;">
+        <div class="header">
+            <form action="" class="search-bar">
+                <input type="text" placeholder="Search for shoes...">
+                <button type="submit"><img src="Images/search.png" alt="search-button"></button>
+            </form>
+            <div class="items">
+                <li><a href="">News</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Help</a></li>
+                <li><a href="sell-page.html" target="_blank">Sell</a></li>
+                <li><img src="Images/bell.png" alt="bell icon" width="30px" height="30px"style="cursor:pointer;"></li>
+                <a href="login.html"><button class="btn">Login</button>
+                <a href="signup.html"><button class="btn">Sign Up</button>
+            </div>
+        </div>
+    </div>
+    <div class="brands-bar">
+        <a href=""><img src="Images/nike-logo.jpg" alt="nike-logo" class="clickable-image"></a>
+        <a href=""><img src="Images/adidas-logo.jpg" alt="nike-logo" class="clickable-image"></a>
+        <a href=""><img src="Images/jordan-logo.jpg" alt="nike-logo" class="clickable-image"></a>
+        <a href=""><img src="Images/puma-logo.jpg" alt="nike-logo" class="clickable-image"></a>
+        <a href=""><img src="Images/underarmor-logo.jpg" alt="nike-logo" class="clickable-image"></a>
+        <a href=""><img src="Images/vans-logo.jpg" alt="nike-logo" class="clickable-image"></a>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Images/nike-carousel.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/puma-carousel.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Images/adidas-carousel.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="block">
+        <h4 style="margin:15vh 20px 40px">Recommended For You</h4>
+        <div class="shoe-row">
+            <a href="buy-page.html" class="shoe-anchor" target="_blank">
+                <div class="shoe">
+                    <img src="Images/travisscott.jpg" alt="placeholder">
+                    <p style="margin-top: 10px;">
+                        Jordan 1 Retro Low OG SP<br>
+                    </p>
+                    <p><span style="font-weight: bold; font-size: 25px; text-align:center;">₹1,10,599</span></p>
+                    <div class="button">
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+            </a>
+            <a href="buy-page.html" class="shoe-anchor" target="_blank">
+                <div class="shoe">
+                    <img src="Images/nike-kobe-5.jpg" alt="Nike Kobe 5">
+                    <p style="margin-top: 10px;">
+                        Nike Kobe 5 Proto "Year of the Mamba"<br>
+                    </p>
+                    <p><span style="font-weight: bold; font-size: 25px; text-align:center;">₹36,300</span></p>
+                    <div class="button">
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+            </a>
+            <a href="buy-page.html" class="shoe-anchor" target="_blank">
+                <div class="shoe">
+                    <img src="Images/solefly-jordan.jpg" alt="SoleFly Jordan 1">
+                    <p style="margin-top: 10px;">
+                        SoleFly x Air Jordan 12 SP "Cafecito"<br>
+                    </p>
+                    <p><span style="font-weight: bold; font-size: 25px; text-align:center;">₹22,050</span></p>
+                    <div class="button">
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+            </a>
+            <a href="buy-page.html" class="shoe-anchor" target="_blank">
+                <div class="shoe">
+                    <img src="Images/adidas-gucci.jpg" alt="Adidas Gucci">
+                    <p style="margin-top: 10px;">
+                        adidas Gucci x Gazelle 'GG Monogram'<br>
+                    </p>
+                    <p><span style="font-weight: bold; font-size: 25px; text-align:center;">₹121,000</span></p>
+                    <div class="button">
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+            </a>
+            <a href="buy-page.html" class="shoe-anchor" target="_blank">
+                <div class="shoe">
+                    <img src="Images/new-balance.jpg" alt="New Balance">
+                    <p style="margin-top: 10px;">
+                        New Balance 2002R Leather Green<br>
+                    </p>
+                    <p><span style="font-weight: bold; font-size: 25px; text-align:center;">₹11,900</span></p>
+                    <div class="button">
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="block">
+        <div class="text-box">
+            <h1>OnlyShoes</h1>
+        </div>
+    </div>
+
+    <div class="block">
+        <h4 style="margin:0 30px 40px">Release Calendar</h4>
+        <div class="release-bar">
+            <div id="owl-demo" class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="release-item">
+                        <p style="font-size: 28px">Feb | 5</p>
+                        <img src="Images/adidas-F50-Elite-FG-Messi-Silver-Metallic.avif" alt="">
+                        <p>adidas F50 Elite FG</p>
+                        <p>Messi Player Pack 1</p>
+                        <div class="button">
+                            <button>Notify me</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="release-item">
+                        <p style="font-size: 28px">Feb | 14</p>
+                        <img src="Images/nike-air-max-1.avif" alt="">
+                        <p>Nike Air Max 1 PRM</p>
+                        <p>Valentine’s Day Black</p>
+                        <div class="button">
+                            <button>Notify me</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="release-item">
+                        <p style="font-size: 28px">Feb | 27</p>
+                        <img src="Images/jordan-pink.avif" alt="">
+                        <p>Jordan Heir</p>
+                        <p>Light Soft Pink</p>
+                        <div class="button">
+                            <button>Notify me</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="release-item">
+                        <p style="font-size: 28px">Mar | 6</p>
+                        <img src="Images/Air-Jordan-39-Heritage.avif" alt="">
+                        <p>Jordan 39</p>
+                        <p>Heritage</p>
+                        <div class="button">
+                            <button>Notify me</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="release-item">
+                        <p style="font-size: 28px;">Mar | 17</p>
+                        <img src="Images/Zion-4-Mud-to-Marble.avif" alt="">
+                        <p>Jordan Zion 4</p>
+                        <p>Mud to Marble</p>
+                        <div class="button">
+                            <button>Notify me</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="release-item">
+                        <p style="font-size: 28px; ">Mar | 28</p>
+                        <img src="Images/adidas-Gazelle-Terrace-Manchester-United.avif" alt="">
+                        <p>adidas Gazelle Terrace</p>
+                        <p>Manchester United</p>
+                        <div class="button">
+                            <button>Notify me</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="release-item">
+                        <p style="font-size: 28px;;">Apr | 8</p>
+                        <img src="Images/adidas-F50-Elite-FG-Messi-Silver-Metallic.avif" alt="">
+                        <p>adidas F50 Freestyle</p>
+                        <p>Messi Silver Metallic</p>
+                        <div class="button">
+                            <button>Notify me</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="release-item">
+                        <p style="font-size: 28px; ">Apr | 29</p>
+                        <img src="Images/Reebok-Engine-A-Mobius-Re-Boot.avif" alt="">
+                        <p>Reebok Engine A</p>
+                        <p>Mobius Re-Boot</p>
+                        <div class="button">
+                            <button>Notify me</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="release-item">
+                        <p style="font-size: 28px; ">Jun | 18</p>
+                        <img src="Images/Nike-Ja-2-Poison-Dart-Frog-GS.avif" alt="">
+                        <p>Nike Ja 2</p>
+                        <p>Poison Dart Frog (GS)</p>
+                        <div class="button">
+                            <button>Notify me</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="release-item">
+                        <p style="font-size: 28px; ">Jul | 2</p>
+                        <img src="Images/Nike-LeBron-22-Bright-Crimson-Obsidian-GS.avif" alt="">
+                        <p>Nike LeBron 22</p>
+                        <p>Bright Crimson Obsidian</p>
+                        <div class="button">
+                            <button>Notify me</button>
+                        </div>
+                    </div>
+                </div>       
+            </div>
+        </div>
+    </div>
+
+    <div class="block">
+        <h4 style="margin:3vh 20px 40px">New and Noteworthy</h4>
+        <div class="shoe-row">
+            <a href="" class="shoe-anchor">
+                <div class="shoe">
+                    <img src="Images/puma-lafrance.jpg" alt="Puma LaFrace">
+                    <p style="margin-top: 10px;">
+                        Puma LaFrance "Chrome"<br>
+                    </p>
+                    <p><span style="font-weight: bold; font-size: 25px; text-align:center;">₹12,900</span></p>
+                    <div class="button">
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="shoe-anchor">
+                <div class="shoe">
+                    <img src="Images/nike-air-max-gold.jpg" alt="Nike Air Max Gold">
+                    <p style="margin-top: 10px;">
+                        Nike Air Max Plus "Black/University Gold<br>
+                    </p>
+                    <p><span style="font-weight: bold; font-size: 25px; text-align:center;">₹20,400</span></p>
+                    <div class="button">
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="shoe-anchor">
+                <div class="shoe">
+                    <img src="Images/mercedes-amg-adidas.jpg" alt="Mercedes AMG Adidas">
+                    <p style="margin-top: 10px;">
+                        Mercedes AMG x Adidas Ultra Boost 5X<br>
+                    </p>
+                    <p><span style="font-weight: bold; font-size: 25px; text-align:center;">₹20,750</span></p>
+                    <div class="button">
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="shoe-anchor">
+                <div class="shoe">
+                    <img src="Images/nike-dunk-low.jpg" alt="Nike Dunk Low">
+                    <p style="margin-top: 10px;">
+                        Nike Dunk Low "Retro Pack"<br>
+                    </p>
+                    <p><span style="font-weight: bold; font-size: 25px; text-align:center;">₹14,000</span></p>
+                    <div class="button">
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="shoe-anchor">
+                <div class="shoe">
+                    <img src="Images/nike-slim-reaper.jpg" alt="Nike Slim Reaper">
+                    <p style="margin-top: 10px;">
+                        Nike KD 17 "Slim Reaper"<br>
+                    </p>
+                    <p><span style="font-weight: bold; font-size: 25px; text-align:center;">₹17,200</span></p>
+                    <div class="button">
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="top">
+            <img src="Images/OnlyShoes logo.jpeg" alt="OnlyShoes logo" width="150px" height="70px" style="border-radius: 20px;">
+            <div class="region">
+                <p>India | English | ₹INR</p>
+            </div>
+            <div class="socials">
+                <a href=""><img src="Images/instagram-icon.jpg" alt="Instagram" width="30px" height="30px"></a>
+                <a href=""><img src="Images/twitter-x-logo-42554.png" alt="Twitter" width="30px" height="30px"></a>
+                <a href=""><img src="Images/youtube-logo.jpg" alt="YouTube" width="40px" height="30px"></a>
+                <a href=""><img src="Images/facebook-logo.jpg" alt="FaceBook" width="30px" height="30px"></a>
+            </div>
+            <div class="terms">
+                <p>Terms | Privacy | Your Privacy Cookies</p>  
+                <p>2025 OnlyShoes. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="front-page.js"></script>
+
+</body>
+</html>
